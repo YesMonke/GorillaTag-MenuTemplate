@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ModMenuFix</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="BepInEx" />
+    <Reference Include="Utilla" />
+    <Reference Include="0Harmony" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.XRModule" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="PhotonRealtime" />
+    <Reference Include="Photon3Unity3D" />
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="UnityEngine.UIModule" />
+    <Reference Include="PhotonUnityNetworking" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+  </ItemGroup>
+</Project>
